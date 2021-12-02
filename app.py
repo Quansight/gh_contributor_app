@@ -2,6 +2,8 @@ import panel as pn
 import pandas as pd
 import ibis
 
+pn.extension()
+
 def remove_sign_from_handles(twitter_handle):
     if type(twitter_handle) != str:
         return twitter_handle
